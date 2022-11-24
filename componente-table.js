@@ -92,7 +92,7 @@ Vue.component('componente-table', {
                 <tr>
 
                 <th :colspan="col" :class="[props_tabla.table_align,props_tabla.table_texto]">
-                Total de {{tipo}}: <span class="float-end text-warning"><strong>{{cantidadDeElementos}}</strong></span>
+                Total de {{tipo}}: <span class="float-end badge text-bg-danger"><strong>{{cantidadDeElementos}}</strong></span>
                 </th>
 
                 
